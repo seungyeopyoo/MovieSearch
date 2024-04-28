@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Brush+Script&display=swap");
+
+* {
+  font-family: "Black Han Sans", sans-serif;
+}
+header {
+  height: 140px;
+  color: black;
+  background-color: rgba(237, 201, 134, 0.369)
+}
+
+.title_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+}
+
+#inputbox {
+  min-width: 300px;
+  padding: 5px 10px;
+}
+#searchBtn {  
+  margin-left: 10px;
+  padding: 5px;
+  width: 60px;
+  height: 45px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  margin: auto;
+  background-color: black;
+}
+.Movie_card {
+  background-color: silver;
+  box-shadow: 10px 10px 2px 1px gray;
+  height: 920px;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
